@@ -53,13 +53,6 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 	
-# CameraGo	
-PRODUCT_PACKAGES += \
-    CameraGo
-
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/permissions/privapp-permissions-camera-go.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-camera-go.xml
-
 # Carrier Config Overlays
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay
